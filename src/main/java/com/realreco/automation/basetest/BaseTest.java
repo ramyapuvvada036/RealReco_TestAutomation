@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 @SuppressWarnings("deprecation")
@@ -36,11 +37,15 @@ public class BaseTest {
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equals("chrome")) {
+
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+
 		} else if (browserName.equals("firefox")) {
+
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
+
 		}
 
 		driver.manage().window().maximize();
