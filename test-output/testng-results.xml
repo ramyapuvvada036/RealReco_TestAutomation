@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-14T12:54:42 IST" name="Default suite" finished-at="2022-06-14T12:54:56 IST" duration-ms="14313">
+  <suite started-at="2022-06-14T17:21:38 IST" name="Default suite" finished-at="2022-06-14T17:21:51 IST" duration-ms="13420">
     <groups>
     </groups>
-    <test started-at="2022-06-14T12:54:42 IST" name="Default test" finished-at="2022-06-14T12:54:56 IST" duration-ms="14313">
+    <test started-at="2022-06-14T17:21:38 IST" name="Default test" finished-at="2022-06-14T17:21:51 IST" duration-ms="13420">
       <class name="com.realreco.automation.testplans.RelativeLocatorsExample">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.realreco.automation.testplans.RelativeLocatorsExample@57cf54e1]" started-at="2022-06-14T12:54:42 IST" name="beforeMethod" finished-at="2022-06-14T12:54:47 IST" duration-ms="4692" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.realreco.automation.testplans.RelativeLocatorsExample@2ed2d9cb]" started-at="2022-06-14T17:21:38 IST" name="beforeMethod" finished-at="2022-06-14T17:21:45 IST" duration-ms="6533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Test001()[pri:0, instance:com.realreco.automation.testplans.RelativeLocatorsExample@57cf54e1]" started-at="2022-06-14T12:54:47 IST" name="Test001" finished-at="2022-06-14T12:54:56 IST" duration-ms="9280" status="PASS">
+        <test-method signature="Test001()[pri:0, instance:com.realreco.automation.testplans.RelativeLocatorsExample@2ed2d9cb]" started-at="2022-06-14T17:21:45 IST" name="Test001" finished-at="2022-06-14T17:21:51 IST" duration-ms="6535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test001 -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.realreco.automation.testplans.RelativeLocatorsExample@57cf54e1]" started-at="2022-06-14T12:54:56 IST" name="AfterMethod" finished-at="2022-06-14T12:54:56 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:com.realreco.automation.testplans.RelativeLocatorsExample@2ed2d9cb]" started-at="2022-06-14T17:21:51 IST" name="AfterMethod" finished-at="2022-06-14T17:21:51 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
