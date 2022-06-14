@@ -34,11 +34,12 @@ public class RelativeLocatorsExample {
 
 		driver.findElement(RelativeLocator.with(By.linkText("Gmail")).toLeftOf(By.linkText("Images"))).click();
 		Thread.sleep(3000);
-
-	}
-
-	@AfterMethod
-	public void AfterMethod() {
+		
 		driver.quit();
+
 	}
+
+	/*
+	 * @AfterMethod public void AfterMethod() { driver.quit(); }
+	 */
 }
