@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.realreco.automation.testplans.LoginPageTest">
+      <class name="com.realreco.automation.testplans.RelativeLocatorsExample">
         <methods>
-          <include name="ASMLoginTest"/>
-          <include name="tearDown"/>
-          <include name="readDataFromExcel"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+          <include name="Test001"/>
         </methods>
-      </class> <!-- com.realreco.automation.testplans.LoginPageTest -->
+      </class> <!-- com.realreco.automation.testplans.RelativeLocatorsExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
