@@ -168,8 +168,7 @@ public class LoginPageTest extends BaseTest {
 		Thread.sleep(1000);
 	}
 
-	@AfterMethod
-	public void tearDown() {
-		// driver.quit();
-	}
+	/*
+	 * @AfterMethod public void tearDown() { driver.quit(); }
+	 */
 }
